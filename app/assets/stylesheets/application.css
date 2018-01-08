@@ -14,7 +14,7 @@
  *= require_self
  */
 
-body{
+.main{
     background-image: url(/assets/event.jpg);
     background-repeat: no-repeat;
     /* make backtround fit window size */
