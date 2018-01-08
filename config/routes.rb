@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'main' => "application#index", as: "main"
+  get 'main' => "users#new", as: "main"
   get 'like/:id' => "likes#create", as: "like"
   delete 'like/:id' => "likes#destroy", as: "unlike"
 

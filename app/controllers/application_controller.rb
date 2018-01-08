@@ -12,9 +12,6 @@ class ApplicationController < ActionController::Base
   end
   helper_method :current_user
 
-  def index
-    render 'index'
-  end
 
   private 
   def require_login

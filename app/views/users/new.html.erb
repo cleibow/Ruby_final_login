@@ -1,1 +1,16 @@
-<%= render 'partials/register' %>
+<div class="row justify-content-center main">
+        <div class="block">
+            <nav class="navbar navbar-light bg-light justify-content-center">
+                    <form class="form-inline">
+                        <button class="btn btn-outline-success register-button active" type="button">Login</button>
+                        <button class="btn align-middle btn-outline-secondary login-button" type="button">Register</button>
+                    </form>
+            </nav>
+            <div class="login">
+                <%= render 'partials/login' %>
+            </div>
+            <div class="register">
+                <%= render 'partials/register' %>
+            </div>  
+        </div>
+    </div>

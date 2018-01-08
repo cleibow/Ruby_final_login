@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+    layout "login", only: [:new]
     # NOTES: If u wanna display the info in template, use @ sign. Otherwise, doesnt matter
     
     skip_before_action :require_login, only: [:new, :create]
